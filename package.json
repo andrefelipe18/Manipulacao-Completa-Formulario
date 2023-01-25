@@ -9,7 +9,10 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
-    "vue": "^3.2.13"
+    "maska": "^1.5.0",
+    "moment": "^2.29.1",
+    "vue": "^3.2.13",
+    "vue-the-mask": "^0.11.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
@@ -32,7 +35,9 @@
     "parserOptions": {
       "parser": "@babel/eslint-parser"
     },
-    "rules": {}
+    "rules": {
+      "vue/multi-word-component-names": 0
+    }
   },
   "browserslist": [
     "> 1%",
